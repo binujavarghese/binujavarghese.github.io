@@ -1,0 +1,48 @@
+---
+layout: layouts/base.njk
+title: Newsletter
+permalink: /newsletter/
+---
+<style>
+  .nl { max-width: 720px; margin: 0 auto; padding: 72px 24px 24px; }
+  .nl h1 { text-align: center; margin-bottom: .8em; }
+  .nl-intro { font-size: 1.2rem; }
+  .nl-form { display: flex; gap: 12px; margin: 32px 0 10px; }
+  .nl-form input { flex: 1; min-width: 0; padding: 16px 18px; font: inherit; font-size: 1.05rem; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); color: var(--ink); }
+  .nl-form input:focus { outline: 2px solid var(--primary); border-color: var(--primary); }
+  .nl-form button { padding: 16px 30px; font: inherit; font-size: 1.05rem; font-weight: 600; border: 0; border-radius: 10px; background: var(--primary); color: #fff; cursor: pointer; }
+  .nl-form button:hover { background: var(--primary-dark); }
+  .nl-note { text-align: center; color: var(--muted); font-size: .95rem; }
+  .nl-cta { text-align: center; margin: 32px 0 10px; }
+  .nl-quotes { margin-top: 56px; }
+  .nl-quote { margin: 0 0 28px; padding: 6px 0 6px 28px; border-left: 4px solid var(--primary); }
+  .nl-quote p { font-size: 1.1rem; color: var(--muted); margin-bottom: .4em; }
+  .nl-quote cite { font-style: normal; font-weight: 600; }
+  @media (max-width: 600px) { .nl-form { flex-direction: column; } }
+</style>
+<section class="nl">
+  <h1>{{ newsletter.title }}</h1>
+  <p class="nl-intro">{{ newsletter.intro }}</p>
+
+  {% if newsletter.formAction %}
+  <form class="nl-form" action="{{ newsletter.formAction }}" method="post">
+    <input type="email" name="email_address" placeholder="Your email" aria-label="Your email" required>
+    <button type="submit">{{ newsletter.buttonText }}</button>
+  </form>
+  {% else %}
+  <p class="nl-cta"><a class="btn" href="{{ newsletter.signupLink or 'mailto:' + site.email }}">{{ newsletter.buttonText }}</a></p>
+  {% endif %}
+  {% if newsletter.note %}<p class="nl-note">{{ newsletter.note }}</p>{% endif %}
+
+  {% if newsletter.testimonials and newsletter.testimonials.length %}
+  <div class="nl-quotes">
+    {% if newsletter.testimonialsIntro %}<p class="nl-intro">{{ newsletter.testimonialsIntro }}</p>{% endif %}
+    {% for t in newsletter.testimonials %}
+    <blockquote class="nl-quote">
+      <p>“{{ t.quote }}”</p>
+      {% if t.name %}<cite>{{ t.name }}</cite>{% endif %}
+    </blockquote>
+    {% endfor %}
+  </div>
+  {% endif %}
+</section>
