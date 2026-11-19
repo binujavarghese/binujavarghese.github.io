@@ -1,19 +1,17 @@
 ---
 layout: layouts/base.njk
 ---
-<section class="hero">
-  <div class="wrap hero-inner">
+<section class="hero hero-blend">
+  <div class="hero-bg" style="background-image: url('{{ site.heroPhoto or site.photo }}');" role="img" aria-label="Photo of {{ site.name }}"></div>
+  <div class="wrap">
     <div class="hero-text">
       <p class="eyebrow">{{ site.eyebrow }}</p>
-      <h1>{{ site.headline }}</h1>
+      <h1>{% if site.headlineHighlight and (site.headlineHighlight in site.headline) %}{{ site.headline | replace(site.headlineHighlight, '<span class="hl">' + site.headlineHighlight + '</span>') | safe }}{% else %}{{ site.headline }}{% endif %}</h1>
       <p class="hero-intro">{{ site.intro }}</p>
       <div class="hero-actions">
         <a class="btn" href="{{ site.newsletterUrl }}">Get my weekly ideas</a>
         <a class="link-arrow" href="/start-here/">New here? Start here →</a>
       </div>
-    </div>
-    <div class="hero-photo">
-      <img src="{{ site.photo }}" alt="Photo of {{ site.name }}">
     </div>
   </div>
 </section>
