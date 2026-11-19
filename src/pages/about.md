@@ -23,14 +23,12 @@ So I started this blog.
 
 ## Why I write
 
-
-
 I believe good science should be useful in everyday life. If one post helps you understand yourself a little better, or try one small change, then this blog is doing its job.
 
 ## Let's connect
 
 I'd love to hear from you, whether it's a question, a story or an idea to collaborate on.
 
-📩 [connectwithbinuja@gmail.com](mailto:connectwithbinuja@gmail.com)
+📩 [tellme.binujavarghese@gmail.com](mailto:tellme.binujavarghese@gmail.com)
 
 New here? The best place to begin is the [Start here](/start-here/) page.
