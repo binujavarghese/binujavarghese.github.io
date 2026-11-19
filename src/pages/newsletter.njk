@@ -24,14 +24,10 @@ permalink: /newsletter/
   <h1>{{ newsletter.title }}</h1>
   <p class="nl-intro">{{ newsletter.intro }}</p>
 
-  {% if newsletter.formAction %}
-  <form class="nl-form" action="{{ newsletter.formAction }}" method="post">
+   <form class="nl-form" action="https://app.kit.com/forms/10215483/subscriptions" method="post">
     <input type="email" name="email_address" placeholder="Your email" aria-label="Your email" required>
     <button type="submit">{{ newsletter.buttonText }}</button>
   </form>
-  {% else %}
-  <p class="nl-cta"><a class="btn" href="{{ newsletter.signupLink or 'mailto:' + site.email }}">{{ newsletter.buttonText }}</a></p>
-  {% endif %}
   {% if newsletter.note %}<p class="nl-note">{{ newsletter.note }}</p>{% endif %}
 
   {% if newsletter.testimonials and newsletter.testimonials.length %}
