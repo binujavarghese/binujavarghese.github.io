@@ -8,21 +8,31 @@
   "intro": "Every week I share what the research says about motivation, habits and the mind, along with my own reflections, written for real life.",
   "email": "connectwithbinuja@gmail.com",
   "newsletterUrl": "https://binujas-newsletter.beehiiv.com/subscribe",
-  "photo": "/images/binuja-photo.svg",
+  "photo": "/images/My pic.jpg",
   "quote": {
     "text": "The curious paradox is that when I accept myself just as I am, then I can change.",
     "author": "Carl Rogers, psychologist"
   },
-  "social": {
-    "instagram": "",
-    "linkedin": "",
-    "x": ""
-  },
   "topics": [
-    { "name": "Psychology & Research", "description": "What the studies actually say, explained in plain words." },
-    { "name": "Motivation", "description": "How to get started, keep going and come back after you stop." },
-    { "name": "Mindset", "description": "The beliefs and thinking patterns that shape how we grow." },
-    { "name": "Habits", "description": "Small daily actions that add up to real change." },
-    { "name": "Reflections", "description": "Personal thoughts, stories and lessons from my own journey." }
+    {
+      "name": "Psychology & Research",
+      "description": "What the studies actually say, explained in plain words."
+    },
+    {
+      "name": "Motivation",
+      "description": "How to get started, keep going and come back after you stop."
+    },
+    {
+      "name": "Mindset",
+      "description": "The beliefs and thinking patterns that shape how we grow."
+    },
+    {
+      "name": "Habits",
+      "description": "Small daily actions that add up to real change."
+    },
+    {
+      "name": "Reflections",
+      "description": "Personal thoughts, stories and lessons from my own journey."
+    }
   ]
 }
