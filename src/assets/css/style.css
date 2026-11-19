@@ -176,3 +176,14 @@ p { margin: 0 0 1em; }
   .author-box { flex-direction: column; align-items: flex-start; }
   .block { padding-top: 56px; }
 }
+/* ===== Homepage photo blended into the background ===== */
+.hero-blend { position: relative; overflow: hidden; min-height: 620px; display: flex; align-items: center; padding: 0; }
+.hero-blend .hero-bg { position: absolute; top: 0; right: 0; bottom: 0; width: 50%; background-size: cover; background-position: 50% 40%; background-repeat: no-repeat; -webkit-mask-image: linear-gradient(to left, #000 50%, transparent 100%); mask-image: linear-gradient(to left, #000 50%, transparent 100%); }
+.hero-blend .wrap { position: relative; width: 100%; }
+.hero-blend .hero-text { width: 52%; padding: 72px 0; }
+.hero-blend .hl { background: #CDEBDF; padding: 0 .18em; border-radius: 6px; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
+@media (max-width: 760px) {
+  .hero-blend { display: block; min-height: 0; }
+  .hero-blend .hero-bg { position: relative; width: 100%; height: 420px; -webkit-mask-image: linear-gradient(to bottom, #000 60%, transparent); mask-image: linear-gradient(to bottom, #000 60%, transparent); }
+  .hero-blend .hero-text { width: 100%; padding: 0 0 48px; margin-top: -60px; }
+}
