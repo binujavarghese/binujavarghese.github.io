@@ -1,15 +1,15 @@
 ---
 layout: layouts/page.njk
+permalink: /about/
 title: About me
 description: Hi, I'm Binuja. Here's who I am and why I write.
-permalink: /about/
 ---
-
-<img src="/images/binuja-photo.svg" alt="Photo of Binuja Varghese" class="about-photo">
+![Photo of Binuja Varghese](/images/binuja-photo.svg)
 
 I'm Binuja Varghese, and I've always been curious about why we think, feel and act the way we do.
 
-<!-- EDIT: Replace this paragraph with your background, for example what you studied or where you work. -->
+
+
 My background is in psychology and research, and over time I noticed something: some of the most useful ideas about motivation, habits and wellbeing stay hidden in academic papers. They rarely reach the people who could use them.
 
 So I started this blog.
@@ -23,7 +23,8 @@ So I started this blog.
 
 ## Why I write
 
-<!-- EDIT: Add your personal story or turning point here. -->
+
+
 I believe good science should be useful in everyday life. If one post helps you understand yourself a little better, or try one small change, then this blog is doing its job.
 
 ## Let's connect
