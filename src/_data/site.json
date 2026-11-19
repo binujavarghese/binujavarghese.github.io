@@ -1,17 +1,17 @@
 {
   "name": "Binuja Varghese",
   "firstName": "Binuja",
-  "title": "Binuja Varghese | Psychology, motivation and growth",
-  "description": "Psychology research, motivation and reflections to help you understand your mind and live better.",
-  "eyebrow": "Psychology · Motivation · Growth",
-  "headline": "Hi, I'm Binuja. I turn psychology into ideas you can use to live better.",
-  "intro": "Every week I share what the research says about motivation, habits and the mind, along with my own reflections, written for real life.",
+  "title": "Binuja Varghese | Science, Research Motivation and Growth",
+  "description": "A budding researcher in chemistry sharing science and made that simple and ideas on motivation and growth.",
+  "eyebrow": "Science · Research · Motivation",
+  "headline": "Hi, I'm Binuja. I'm a chemist who loves turning science into stories.",
+  "intro": "I'm a PhD researcher in computational chemistry at the University of Limerick. Here I share the science I love, honest notes from research life, and ideas on motivation and growth from the books I'm reading.",
   "email": "connectwithbinuja@gmail.com",
   "newsletterUrl": "https://binujas-newsletter.beehiiv.com/subscribe",
   "photo": "/images/My pic.jpg",
   "quote": {
-    "text": "The curious paradox is that when I accept myself just as I am, then I can change.",
-    "author": "Carl Rogers, psychologist"
+    "text": "Nothing in life is to be feared, it is only to be understood.",
+    "author": "Marie Curie"
   },
   "social": {
     "instagram": "https://www.instagram.com/binu_ja_varghese?knvt=MWg1ejh4ZHQycHB3bw==",
@@ -20,20 +20,20 @@
   },
   "topics": [
     {
-      "name": "Psychology & Research",
-      "description": "What the studies actually say, explained in plain words."
+      "name": "Science ",
+      "description": "Science explained in plain words."
     },
     {
-      "name": "Motivation",
-      "description": "How to get started, keep going and come back after you stop."
+      "name": "Research Life\t",
+      "description": "What doing a PhD is really like: the wins, the bugs and the lessons I am learning."
     },
     {
-      "name": "Mindset",
-      "description": "The beliefs and thinking patterns that shape how we grow."
+      "name": "Motivation & Growth",
+      "description": "How to start, keep going and grow, in research and in life."
     },
     {
-      "name": "Habits",
-      "description": "Small daily actions that add up to real change."
+      "name": "Books ",
+      "description": "Ideas from psychology books and studies that changed how I think."
     },
     {
       "name": "Reflections",
