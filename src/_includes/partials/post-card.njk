@@ -1,0 +1,15 @@
+<article class="card">
+  <a class="card-link" href="{{ post.url }}">
+    {% if post.data.image %}
+      <img class="card-img" src="{{ post.data.image }}" alt="" loading="lazy">
+    {% else %}
+      <div class="card-band" data-topic="{{ post.data.topic | slugify2 }}"><span>{{ post.data.topic }}</span></div>
+    {% endif %}
+    <div class="card-body">
+      <p class="card-topic">{{ post.data.topic }}</p>
+      <h3 class="card-title">{{ post.data.title }}</h3>
+      {% if post.data.description %}<p class="card-excerpt">{{ post.data.description }}</p>{% endif %}
+      <p class="card-meta">{{ post.date | readableDate }} · {{ post.content | readingTime }}</p>
+    </div>
+  </a>
+</article>

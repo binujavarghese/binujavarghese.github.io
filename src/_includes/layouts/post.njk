@@ -1,0 +1,36 @@
+---
+layout: layouts/base.njk
+---
+<article class="post">
+  <header class="post-header wrap-narrow">
+    <a class="post-topic" href="/topics/{{ topic | slugify2 }}/">{{ topic }}</a>
+    <h1>{{ title }}</h1>
+    {% if description %}<p class="post-lede">{{ description }}</p>{% endif %}
+    <div class="post-byline">
+      <img src="{{ site.photo }}" alt="" class="avatar">
+      <span>By <a href="/about/">{{ site.name }}</a> · {{ page.date | readableDate }} · {{ content | readingTime }}</span>
+    </div>
+  </header>
+  {% if image %}<img class="post-hero wrap" src="{{ image }}" alt="">{% endif %}
+  <div class="prose wrap-narrow">
+    {{ content | safe }}
+  </div>
+  <aside class="author-box wrap-narrow">
+    <img src="{{ site.photo }}" alt="" class="avatar-lg">
+    <div>
+      <p class="footer-label">Written by</p>
+      <p class="author-name">{{ site.name }}</p>
+      <p class="muted">I write about psychology, motivation and growth. <a href="/about/">Read my story</a> or <a href="mailto:{{ site.email }}">send me a message</a>.</p>
+    </div>
+  </aside>
+  {% set related = collections.posts | byTopic(topic) %}
+  {% if related.length > 1 %}
+  <section class="wrap related">
+    <h2 class="section-title">More on {{ topic }}</h2>
+    <div class="grid">
+      {% for post in related | limit(4) %}{% if post.url != page.url %}{% include "partials/post-card.njk" %}{% endif %}{% endfor %}
+    </div>
+  </section>
+  {% endif %}
+</article>
+{% include "partials/subscribe.njk" %}

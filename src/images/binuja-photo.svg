@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Photo placeholder">
+  <rect width="800" height="1000" fill="#E7F2EE"/>
+  <circle cx="400" cy="400" r="150" fill="#9FD3C1"/>
+  <path d="M150 1000c0-180 112-330 250-330s250 150 250 330z" fill="#9FD3C1"/>
+  <text x="400" y="430" text-anchor="middle" font-family="Georgia, serif" font-size="110" fill="#0A4F3E">BV</text>
+  <text x="400" y="920" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" fill="#0A4F3E">Your photo goes here</text>
+</svg>

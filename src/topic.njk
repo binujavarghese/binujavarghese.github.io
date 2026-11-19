@@ -1,0 +1,26 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: site.topics
+  size: 1
+  alias: t
+permalink: "/topics/{{ t.name | slugify2 }}/"
+eleventyComputed:
+  title: "{{ t.name }}"
+---
+{% set tposts = collections.posts | byTopic(t.name) %}
+<section class="wrap block">
+  <header class="list-header">
+    <p class="eyebrow"><a href="/topics/">Topics</a></p>
+    <h1>{{ t.name }}</h1>
+    <p class="muted">{{ t.description }}</p>
+  </header>
+  {% if tposts.length %}
+    <div class="grid">
+      {% for post in tposts %}{% include "partials/post-card.njk" %}{% endfor %}
+    </div>
+  {% else %}
+    <p class="empty">Posts on this topic are coming soon. <a href="{{ site.newsletterUrl }}">Subscribe</a> to get them first.</p>
+  {% endif %}
+</section>
+{% include "partials/subscribe.njk" %}

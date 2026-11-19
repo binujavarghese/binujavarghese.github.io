@@ -1,0 +1,35 @@
+---
+layout: layouts/page.njk
+title: About me
+description: Hi, I'm Binuja. Here's who I am and why I write.
+permalink: /about/
+---
+
+<img src="/images/binuja-photo.svg" alt="Photo of Binuja Varghese" class="about-photo">
+
+I'm Binuja Varghese, and I've always been curious about why we think, feel and act the way we do.
+
+<!-- EDIT: Replace this paragraph with your background, for example what you studied or where you work. -->
+My background is in psychology and research, and over time I noticed something: some of the most useful ideas about motivation, habits and wellbeing stay hidden in academic papers. They rarely reach the people who could use them.
+
+So I started this blog.
+
+## What you'll find here
+
+- **Psychology & Research:** what the studies actually say, explained in plain words
+- **Motivation:** how to start, keep going and come back after you stop
+- **Mindset and Habits:** small, practical changes backed by science
+- **Reflections:** my own thoughts, stories and lessons along the way
+
+## Why I write
+
+<!-- EDIT: Add your personal story or turning point here. -->
+I believe good science should be useful in everyday life. If one post helps you understand yourself a little better, or try one small change, then this blog is doing its job.
+
+## Let's connect
+
+I'd love to hear from you, whether it's a question, a story or an idea to collaborate on.
+
+📩 [connectwithbinuja@gmail.com](mailto:connectwithbinuja@gmail.com)
+
+New here? The best place to begin is the [Start here](/start-here/) page.

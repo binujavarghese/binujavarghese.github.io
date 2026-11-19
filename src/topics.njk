@@ -1,0 +1,22 @@
+---
+layout: layouts/base.njk
+title: Topics
+permalink: /topics/
+---
+<section class="wrap block">
+  <header class="list-header">
+    <h1>Topics</h1>
+    <p class="muted">Pick a theme and dive in.</p>
+  </header>
+  <div class="topic-grid">
+    {% for t in site.topics %}
+      {% set count = (collections.posts | byTopic(t.name)).length %}
+      <a class="topic-card" data-topic="{{ t.name | slugify2 }}" href="/topics/{{ t.name | slugify2 }}/">
+        <h2>{{ t.name }}</h2>
+        <p>{{ t.description }}</p>
+        <span class="muted">{{ count }} post{% if count != 1 %}s{% endif %}</span>
+      </a>
+    {% endfor %}
+  </div>
+</section>
+{% include "partials/subscribe.njk" %}

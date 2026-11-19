@@ -1,0 +1,77 @@
+---
+layout: layouts/base.njk
+---
+<section class="hero">
+  <div class="wrap hero-inner">
+    <div class="hero-text">
+      <p class="eyebrow">{{ site.eyebrow }}</p>
+      <h1>{{ site.headline }}</h1>
+      <p class="hero-intro">{{ site.intro }}</p>
+      <div class="hero-actions">
+        <a class="btn" href="{{ site.newsletterUrl }}">Get my weekly ideas</a>
+        <a class="link-arrow" href="/start-here/">New here? Start here →</a>
+      </div>
+    </div>
+    <div class="hero-photo">
+      <img src="{{ site.photo }}" alt="Photo of {{ site.name }}">
+    </div>
+  </div>
+</section>
+
+<section class="wrap block">
+  <div class="section-head">
+    <h2 class="section-title">Start with these</h2>
+    <a class="link-arrow" href="/start-here/">Start here guide →</a>
+  </div>
+  <div class="grid">
+    {% for post in collections.posts | featured | limit(3) %}{% include "partials/post-card.njk" %}{% endfor %}
+  </div>
+</section>
+
+<section class="topics-strip">
+  <div class="wrap">
+    <h2 class="section-title">Explore by topic</h2>
+    <div class="topic-pills">
+      {% for t in site.topics %}
+        <a class="topic-pill" data-topic="{{ t.name | slugify2 }}" href="/topics/{{ t.name | slugify2 }}/">{{ t.name }}</a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% for t in site.topics %}
+  {% set tposts = collections.posts | byTopic(t.name) %}
+  {% if tposts.length %}
+  <section class="wrap block">
+    <div class="section-head">
+      <div>
+        <h2 class="section-title">{{ t.name }}</h2>
+        <p class="muted">{{ t.description }}</p>
+      </div>
+      <a class="link-arrow" href="/topics/{{ t.name | slugify2 }}/">See all →</a>
+    </div>
+    <div class="grid">
+      {% for post in tposts | limit(3) %}{% include "partials/post-card.njk" %}{% endfor %}
+    </div>
+  </section>
+  {% endif %}
+{% endfor %}
+
+<section class="quote-band">
+  <figure class="wrap-narrow">
+    <blockquote>“{{ site.quote.text }}”</blockquote>
+    <figcaption>{{ site.quote.author }}</figcaption>
+  </figure>
+</section>
+
+<section class="wrap block about-strip">
+  <img src="{{ site.photo }}" alt="" class="avatar-xl">
+  <div>
+    <p class="eyebrow">About me</p>
+    <h2 class="section-title">I'm {{ site.firstName }}, and I'm fascinated by how our minds work.</h2>
+    <p>Here I share what psychology research tells us about motivation, habits and growth, along with my own reflections. My goal is simple: to make good science useful in everyday life.</p>
+    <a class="link-arrow" href="/about/">Read my story →</a>
+  </div>
+</section>
+
+{% include "partials/subscribe.njk" %}

@@ -1,0 +1,13 @@
+---
+layout: layouts/base.njk
+---
+<article class="page">
+  <header class="page-header wrap-narrow">
+    <h1>{{ title }}</h1>
+    {% if description %}<p class="post-lede">{{ description }}</p>{% endif %}
+  </header>
+  <div class="prose wrap-narrow">
+    {{ content | safe }}
+  </div>
+</article>
+{% include "partials/subscribe.njk" %}
