@@ -65,7 +65,25 @@ content:
       - name: body
         label: Page
         type: rich-text
-
+  - name: newsletter
+    label: Newsletter page
+    type: file
+    path: src/_data/newsletter.json
+    fields:
+      - { name: title, label: Page title, type: string }
+      - { name: intro, label: Intro text, type: text }
+      - { name: buttonText, label: Button text, type: string }
+      - { name: formAction, label: Kit form address (for the email box), type: string }
+      - { name: signupLink, label: Sign-up link (used if the Kit form address is empty), type: string }
+      - { name: note, label: Small note under the button, type: string }
+      - { name: testimonialsIntro, label: Line above testimonials, type: string }
+      - name: testimonials
+        label: Testimonials
+        type: object
+        list: true
+        fields:
+          - { name: quote, label: What they said, type: text }
+          - { name: name, label: Their name (and role or place), type: string }
   - name: site
     label: Site settings
     type: file
