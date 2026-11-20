@@ -31,7 +31,7 @@ My path in chemistry began in Kottayam, Kerala, and has led me to doctoral resea
 
 **PhD in Chemistry** (2025-present)  
 Bernal Institute, University of Limerick, Ireland  
-*Research :* Designing advanced electrocatalysts for key electroreduction reactions.**  
+*Research :* Designing advanced electrocatalysts for key electroreduction reactions.  
 
 **MSc in Applied Chemistry** (2023-2025)  
 CMS College Kottayam, Kottayam, Kerala, India 
