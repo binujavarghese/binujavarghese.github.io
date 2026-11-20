@@ -31,9 +31,9 @@ My path in chemistry began in Kottayam, Kerala, and has led me to doctoral resea
 
 📄 [Download my CV](/images/Binuja-Varghese-CV.pdf) · [Google Scholar]([https://scholar.google.com/citations?user=Fl9nME8AAAAJ&hl=en](https://scholar.google.com/citations?user=Fl9nME8AAAAJ&hl=en)) · [LinkedIn]([https://www.linkedin.com/in/binuja-varghese](https://www.linkedin.com/in/binuja-varghese))
 
-**PhD in Chemistry** (2025- present)  
+**PhD in Chemistry** (2025-present)  
 Bernal Institute, University of Limerick, Ireland  
-*Research : focuses on designing advanced electrocatalysts for key electroreduction reactions.  [Google scholar](https://scholar.google.com/citations?user=Fl9nME8AAAAJ&hl=en)*  
+*Research :* Designing advanced electrocatalysts for key electroreduction reactions.**  
 
 **MSc in Applied Chemistry** (2023-2025)  
 CMS College Kottayam, Kottayam, Kerala, India 
@@ -42,9 +42,8 @@ CMS College Kottayam, Kottayam, Kerala, India
 CMS College Kottayam, Kottayam, Kerala, India
 
 **Schooling**  
-Higher secondary : St. Annes Girls HSS Kottayam, Kerala, India. 
-
-High School: CMS High School Kottayam, Kerala, India. 
+Higher Secondary: St. Annes Girls HSS, Kottayam, Kerala, India  
+High School: CMS High School, Kottayam, Kerala, India
 
 ## Let's connect
 
