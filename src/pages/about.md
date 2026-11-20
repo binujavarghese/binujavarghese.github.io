@@ -7,23 +7,23 @@ title: About me
 
 > *Early days of my PhD, on the Living Bridge at the University of Limerick, Ireland (Photo: a dear friend)*
 
-I'm Binuja Varghese (you can call me '*Binu'*  in short, I like that). 
+Dear reader,
 
-My background is in psychology and research, and over time I noticed something: some of the most useful ideas about motivation, habits and wellbeing stay hidden in academic papers. They rarely reach the people who could use them.
+I’m Binuja Varghese, though most people call me Binu, and I’d like that from you too.
 
-So I started this blog.
+I grew up in Kottayam, Kerala, where chemistry slowly turned from a school subject into something I couldn’t stop thinking about. That curiosity took me through my BSc and MSc, and now to Ireland, where I’m doing my PhD at the University of Limerick, designing materials that help drive important chemical reactions using electricity.
 
-## What you'll find here
+Along the way, I learned that research isn’t only about science. It’s also about patience, doubt, small wins and starting again on hard days. Books on psychology and motivation have helped me through many of those days, and I often find myself wanting to share what I’ve learned.
 
-- **Psychology & Research:** what the studies actually say, explained in plain words
-- **Motivation:** how to start, keep going and come back after you stop
-- **Mindset and Habits:** small, practical changes backed by science
-- **Reflections:** my own thoughts, stories and lessons along the way
+So this blog is where I do that. Here you’ll find:
 
-## What is my motivation to write
+Science, Simplified: core ideas in science, explained for everyone
+For Researchers: methods, tools and lessons for fellow researchers
+PhD Diaries: what doing a PhD is really like
+Habits & Motivation: what I’m learning about focus and growth
+Beyond the Lab: trips, small moments and personal stories
 
-I believe good science should be useful in everyday life. If one post helps you understand yourself a little better, or try one small change, then this blog is doing its job.
-
+Whether you’re a curious reader, a fellow researcher or someone working on yourself, I’m really glad you’re here.
 ## Academic journey
 
 My path in chemistry began in Kottayam, Kerala, and has led me to doctoral research in Ireland. Here’s a brief overview. For more, see my CV, Google Scholar and LinkedIn.
