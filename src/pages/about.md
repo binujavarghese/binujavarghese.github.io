@@ -48,7 +48,9 @@ I'd love to hear from you, whether it's a question, a story, an idea or a though
 
 📩 [tellme.binujavarghese@gmail.com](mailto:tellme.binujavarghese@gmail.com)
 
-With Love
+With love,
+
+<img src="/images/binuja-signature.png" alt="Binuja" style="height:70px; width:auto; margin:8px 0 0; border-radius:0;">
 
 
 
