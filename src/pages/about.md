@@ -4,7 +4,7 @@ permalink: /about/
 title: About me
 description: Hi, I'm Binuja. Here's who I am and why I write.
 ---
-![Photo of Binuja Varghese](/images/binuja-photo.svg)
+![Photo of Binuja Varghese](/images/Binuja-1.jpg)
 
 I'm Binuja Varghese, and I've always been curious about why we think, feel and act the way we do.
 
