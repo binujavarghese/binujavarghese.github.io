@@ -188,7 +188,7 @@ p { margin: 0 0 1em; }
   .hero-blend .hero-text { width: 100%; padding: 0 0 48px; margin-top: -60px; }
 }
 /* Signature size: stays small everywhere */
-.prose img[src*="binuja-signature"] { height: 70px; width: auto; margin: 8px 0 0; border-radius: 0; }
+.prose img[src*="binuja-signature"] { height: 50px; width: auto; margin: 8px 0 0; border-radius: 0; }
 /* Topic colours */
 [data-topic="science-simplified"] { --t-bg: #BEE3FF; --t-ink: #08386B; }
 [data-topic="for-researchers"] { --t-bg: #D9CCFF; --t-ink: #2E1A75; }
