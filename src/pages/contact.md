@@ -1,7 +1,7 @@
 ---
 layout: layouts/page.njk
 title: Let's connect!
-description: If you have a question, a story or a comment regarding my posts or to share with! I'd love to hear from you.
+description: 
 permalink: /contact/
 ---
 
