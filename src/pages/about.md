@@ -28,7 +28,7 @@ I believe good science should be useful in everyday life. If one post helps you 
 ## Academic journey
 
 📄 [Download my CV (PDF)](/images/CV_Binuja_Varghese.pdf)
-**PhD in Chemistry** (2025- present)  
+**PhD in Chemistry** (2025- present)   
 Bernal Institute, University of Limerick, Ireland  
 *Research : focuses on designing advanced electrocatalysts for key electroreduction reactions.  [Google scholar](https://scholar.google.com/citations?user=Fl9nME8AAAAJ&hl=en)*  
 
