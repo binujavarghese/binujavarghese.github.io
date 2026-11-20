@@ -6,9 +6,9 @@ description: Hi, I'm Binuja. Here's who I am and why I write.
 ---
 ![Photo of Binuja Varghese](/images/Binuja-1.jpg)
 
-> *Early days of my PhD, on the Living Bridge at the University of Limerick. (Photo: a dear friend)*
+> *Early days of my PhD, on the Living Bridge at the University of Limerick, Ireland (Photo: a dear friend)*
 
-I'm Binuja Varghese, you can call me "Binu" as well! 
+I'm Binuja Varghese (you can call me '*Binu'* as well if you like) 
 
 My background is in psychology and research, and over time I noticed something: some of the most useful ideas about motivation, habits and wellbeing stay hidden in academic papers. They rarely reach the people who could use them.
 
@@ -37,7 +37,7 @@ CMS College Kottayam, Kottayam, Kerala, India
  **BSc in Chemistry** (2020-2023)  
 CMS College Kottayam, Kottayam, Kerala, India
 
-**School**  
+**Schooling**  
 Higher secondary : St. Annes Girls HSS Kottayam, Kerala, India. 
 
 High School: CMS High School Kottayam, Kerala, India. 
@@ -48,3 +48,10 @@ I'd love to hear from you, whether it's a question, a story, an idea or a though
 
 📩 [tellme.binujavarghese@gmail.com](mailto:tellme.binujavarghese@gmail.com)
 
+With Love
+
+
+
+&nbsp;
+
+                                                                   
