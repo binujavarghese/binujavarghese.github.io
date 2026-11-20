@@ -19,7 +19,7 @@ layout: layouts/base.njk
 <section class="wrap block">
   <div class="section-head">
     <h2 class="section-title">Start with these</h2>
-    <a class="link-arrow" href="/start-here/">Start here guide →</a>
+    <a class="link-arrow" href="/topics/">Explore articles →</a>
   </div>
   <div class="grid">
     {% for post in collections.posts | featured | limit(3) %}{% include "partials/post-card.njk" %}{% endfor %}
