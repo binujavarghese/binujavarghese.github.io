@@ -28,7 +28,7 @@ I believe good science should be useful in everyday life. If one post helps you 
 
 My path in chemistry began in Kottayam, Kerala, and has led me to doctoral research in Ireland. Here’s a brief overview. For more, see my CV, Google Scholar and LinkedIn.
 
-📄 [Download my CV](/images/Binuja-Varghese-CV.pdf) · [Google Scholar]([https://scholar.google.com/citations?user=Fl9nME8AAAAJ&hl=en](https://scholar.google.com/citations?user=Fl9nME8AAAAJ&hl=en)) · [LinkedIn]([https://www.linkedin.com/in/binuja-varghese](https://www.linkedin.com/in/binuja-varghese))
+📄 [Download my CV](/images/CV_Binuja_Varghese.pdf) · [Google Scholar](https://scholar.google.com/citations?user=Fl9nME8AAAAJ&hl=en) · [LinkedIn](https://www.linkedin.com/in/binuja-varghese)
 
 **PhD in Chemistry** (2025-present)  
 Bernal Institute, University of Limerick, Ireland  
