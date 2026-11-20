@@ -21,7 +21,7 @@ So I started this blog.
 - **Mindset and Habits:** small, practical changes backed by science
 - **Reflections:** my own thoughts, stories and lessons along the way
 
-## Why I write
+## What is my motivation to write
 
 I believe good science should be useful in everyday life. If one post helps you understand yourself a little better, or try one small change, then this blog is doing its job.
 
