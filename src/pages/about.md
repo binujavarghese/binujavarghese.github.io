@@ -25,6 +25,23 @@ So I started this blog.
 
 I believe good science should be useful in everyday life. If one post helps you understand yourself a little better, or try one small change, then this blog is doing its job.
 
+## Academic journey
+
+**PhD in Computational Chemistry** (2025- present)  
+Bernal Institute, University of Limerick, Ireland  
+*Research : focuses on designing advanced electrocatalysts for key electroreduction reactions.*
+
+**MSc in Applied Chemistry** (2023-2025)  
+CMS College Kottayam, Kottayam, Kerala, India 
+
+ **BSc in Chemistry** (2020-2023)  
+CMS College Kottayam, Kottayam, Kerala, India
+
+**School**  
+Higher secondary : St. Annes Girls HSS Kottayam, Kerala, India. 
+
+High School: CMS High School Kottayam, Kerala, India. 
+
 ## Let's connect
 
 I'd love to hear from you, whether it's a question, a story or an idea to collaborate on.
