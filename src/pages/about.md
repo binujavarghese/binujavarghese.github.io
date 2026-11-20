@@ -31,4 +31,3 @@ I'd love to hear from you, whether it's a question, a story or an idea to collab
 
 📩 [tellme.binujavarghese@gmail.com](mailto:tellme.binujavarghese@gmail.com)
 
-New here? The best place to begin is the [Start here](/start-here/) page.
