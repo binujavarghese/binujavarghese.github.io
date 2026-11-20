@@ -44,7 +44,7 @@ High School: CMS High School Kottayam, Kerala, India.
 
 ## Let's connect
 
-I'd love to hear from you, whether it's a question, a story, an experience or an idea or a comment about my writing. Don't hesitate!! You are most welcome!
+I'd love to hear from you, whether it's a question, a story, an idea or a thought about something I've written. Don't hesitate to reach out. My inbox is always open!
 
 📩 [tellme.binujavarghese@gmail.com](mailto:tellme.binujavarghese@gmail.com)
 
