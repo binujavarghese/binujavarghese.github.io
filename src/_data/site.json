@@ -20,24 +20,24 @@
   },
   "topics": [
     {
-      "name": "Science ",
-      "description": "Science explained in plain words."
+      "name": "🪐 Science, Simplified\t",
+      "description": "Concepts in science, explained for everyone."
     },
     {
-      "name": "Research Life\t",
+      "name": "🔍 For Researchers ",
+      "description": "PhD students, scientists and ambitious students. "
+    },
+    {
+      "name": "🎓 PhD Diaries",
       "description": "What doing a PhD is really like: the wins, the bugs and the lessons I am learning."
     },
     {
-      "name": "Motivation & Growth",
-      "description": "How to start, keep going and grow, in research and in life."
+      "name": "🌱 Habits & Motivation",
+      "description": "How it helped me to change? And how they apply to work and life."
     },
     {
-      "name": "Books ",
-      "description": "Ideas from psychology books and studies that changed how I think."
-    },
-    {
-      "name": "Reflections",
-      "description": "Personal thoughts, stories and lessons from my own journey."
+      "name": "✈️ Beyond the Lab",
+      "description": "Trips, small moments and personal stories from life outside research."
     }
   ]
 }
