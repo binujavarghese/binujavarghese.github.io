@@ -8,7 +8,7 @@ description: Hi, I'm Binuja. Here's who I am and why I write.
 
 > *Early days of my PhD, on the Living Bridge at the University of Limerick, Ireland (Photo: a dear friend)*
 
-I'm Binuja Varghese (you can call me '*Binu'* as well if you like) 
+I'm Binuja Varghese (you can call me '*Binu'*  in short, I like that. 
 
 My background is in psychology and research, and over time I noticed something: some of the most useful ideas about motivation, habits and wellbeing stay hidden in academic papers. They rarely reach the people who could use them.
 
