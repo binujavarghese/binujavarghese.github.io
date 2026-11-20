@@ -189,3 +189,9 @@ p { margin: 0 0 1em; }
 }
 /* Signature size: stays small everywhere */
 .prose img[src*="binuja-signature"] { height: 70px; width: auto; margin: 8px 0 0; border-radius: 0; }
+/* Topic colours */
+[data-topic="science-simplified"] { --t-bg: #BEE3FF; --t-ink: #08386B; }
+[data-topic="for-researchers"] { --t-bg: #D9CCFF; --t-ink: #2E1A75; }
+[data-topic="phd-diaries"] { --t-bg: #FFE08A; --t-ink: #5C3D00; }
+[data-topic="habits-and-motivation"] { --t-bg: #B8F0CF; --t-ink: #0A5132; }
+[data-topic="beyond-the-lab"] { --t-bg: #FFC2B3; --t-ink: #7A2410; }
