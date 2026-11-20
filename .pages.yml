@@ -99,7 +99,7 @@ content:
       - { name: email, label: Contact email, type: string }
       - { name: newsletterUrl, label: Newsletter subscribe link, type: string }
       - { name: photo, label: Your photo, type: image }
-            - { name: heroPhoto, label: Homepage background photo, type: image }
+      - { name: heroPhoto, label: Homepage background photo, type: image }
       - { name: headlineHighlight, label: Words to highlight in the headline, type: string }
       - name: quote
         label: Homepage quote
