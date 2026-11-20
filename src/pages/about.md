@@ -24,6 +24,7 @@ Habits & Motivation: what I’m learning about focus and growth
 Beyond the Lab: trips, small moments and personal stories
 
 Whether you’re a curious reader, a fellow researcher or someone working on yourself, I’m really glad you’re here.
+
 ## Academic journey
 
 My path in chemistry began in Kottayam, Kerala, and has led me to doctoral research in Ireland. Here’s a brief overview. For more, see my CV, Google Scholar and LinkedIn.
@@ -50,6 +51,8 @@ I'd love to hear from you, whether it's a question, a story, an idea or a though
 📩 [tellme.binujavarghese@gmail.com](mailto:tellme.binujavarghese@gmail.com)
 
 With love,
+
+
 
 ![Binuja](/images/binuja-signature.png)
 
