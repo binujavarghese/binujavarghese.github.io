@@ -11,7 +11,7 @@ The best way to reach me is by email:
 
 **Write to me about:**
 
-- Questions about a post, or a topic you'd like me to write about.
+- Questions or comments about a post, or a topic you'd like me to write about.
 - Your own story about motivation, habits or growth.
 - Science communications, guest posts, talks.
   
