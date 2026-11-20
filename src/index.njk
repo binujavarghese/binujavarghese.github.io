@@ -9,7 +9,7 @@ layout: layouts/base.njk
       <h1>{% if site.headlineHighlight and (site.headlineHighlight in site.headline) %}{{ site.headline | replace(site.headlineHighlight, '<span class="hl">' + site.headlineHighlight + '</span>') | safe }}{% else %}{{ site.headline }}{% endif %}</h1>
       <p class="hero-intro">{{ site.intro }}</p>
       <div class="hero-actions">
-        <a class="btn" href="{{ site.newsletterUrl }}">Join my newsletter</a>
+        <a class="btn" href="/newsletter/">Join my newsletter</a>
         <a class="link-arrow" href="/topics/">Explore articles →</a>
       </div>
     </div>
