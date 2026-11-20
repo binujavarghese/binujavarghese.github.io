@@ -9,13 +9,13 @@ layout: layouts/base.njk
       <h1>{% if site.headlineHighlight and (site.headlineHighlight in site.headline) %}{{ site.headline | replace(site.headlineHighlight, '<span class="hl">' + site.headlineHighlight + '</span>') | safe }}{% else %}{{ site.headline }}{% endif %}</h1>
       <p class="hero-intro">{{ site.intro }}</p>
       <div class="hero-actions">
-        <a class="btn" href="{{ site.newsletterUrl }}">Get my weekly ideas</a>
-        <a class="link-arrow" href="/start-here/">New here? Start here →</a>
+        <a class="btn" href="{{ site.newsletterUrl }}">Join my newsletter</a>
+        <a class="link-arrow" href="/topics/">Explore articles →</a>
       </div>
     </div>
   </div>
 </section>
-
+{% if collections.posts.length %}
 <section class="wrap block">
   <div class="section-head">
     <h2 class="section-title">Start with these</h2>
@@ -25,7 +25,7 @@ layout: layouts/base.njk
     {% for post in collections.posts | featured | limit(3) %}{% include "partials/post-card.njk" %}{% endfor %}
   </div>
 </section>
-
+{% endif %}
 <section class="topics-strip">
   <div class="wrap">
     <h2 class="section-title">Explore by topic</h2>
@@ -66,9 +66,8 @@ layout: layouts/base.njk
   <img src="{{ site.photo }}" alt="" class="avatar-xl">
   <div>
     <p class="eyebrow">About me</p>
-    <h2 class="section-title">I'm {{ site.firstName }}, and I'm fascinated by how our minds work.</h2>
-    <p>Here I share what psychology research tells us about motivation, habits and growth, along with my own reflections. My goal is simple: to make good science useful in everyday life.</p>
-    <a class="link-arrow" href="/about/">Read my story →</a>
+    <h2 class="section-title">I'm {{ site.firstName }}, a chemist who believes science belongs to everyone.</h2>
+    <p>From Kottayam, Kerala, to a PhD at the University of Limerick, I've learned that research is as much about curiosity, patience and small wins as it is about results. This blog is where I share both: the science, and the story behind it.</p>
   </div>
 </section>
 
