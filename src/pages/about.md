@@ -26,6 +26,7 @@ So I started this blog.
 I believe good science should be useful in everyday life. If one post helps you understand yourself a little better, or try one small change, then this blog is doing its job.
 
 ## Academic journey
+
 📄 [Download my CV (PDF)](/images/CV_Binuja_Varghese.pdf)
 **PhD in Chemistry** (2025- present)  
 Bernal Institute, University of Limerick, Ireland  
@@ -50,10 +51,8 @@ I'd love to hear from you, whether it's a question, a story, an idea or a though
 
 With love,
 
-<img src="/images/binuja-signature.png" alt="Binuja" style="height:70px; width:auto; margin:8px 0 0; border-radius:0;">
+![Binuja](/images/binuja-signature.png)
 
 
 
 &nbsp;
-
-                                                                   
