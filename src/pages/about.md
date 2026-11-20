@@ -6,9 +6,9 @@ description: Hi, I'm Binuja. Here's who I am and why I write.
 ---
 ![Photo of Binuja Varghese](/images/Binuja-1.jpg)
 
+*Early days of my PhD, on the Living Bridge at the University of Limerick. (Photo: a dear friend)*
+
 I'm Binuja Varghese, and I've always been curious about why we think, feel and act the way we do.
-
-
 
 My background is in psychology and research, and over time I noticed something: some of the most useful ideas about motivation, habits and wellbeing stay hidden in academic papers. They rarely reach the people who could use them.
 
