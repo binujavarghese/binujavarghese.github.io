@@ -189,10 +189,9 @@ p { margin: 0 0 1em; }
 }
 /* Signature size: stays small everywhere */
 .prose img[src*="binuja-signature"] { height: 50px; width: auto; margin: 8px 0 0; border-radius: 0; }
-/* Topic colours */
-[data-topic="science-simplified"] { --t-bg: #BEE3FF; --t-ink: #08386B; }
-[data-topic="for-researchers"] { --t-bg: #D9CCFF; --t-ink: #2E1A75; }
-[data-topic="phd-diaries"] { --t-bg: #FFE08A; --t-ink: #5C3D00; }
-[data-topic="habits-and-motivation"] { --t-bg: #B8F0CF; --t-ink: #0A5132; }
-[data-topic="beyond-the-lab"] { --t-bg: #FFC2B3; --t-ink: #7A2410; }
-[data-topic="scripture-and-life"] { --t-bg: #F3D9FA; --t-ink: #5B1A6B; }
+[data-topic="science-simplified"] { --t-accent: #1F6FB2; }
+[data-topic="for-researchers"] { --t-accent: #5B4BB0; }
+[data-topic="phd-diaries"] { --t-accent: #9A6512; }
+[data-topic="habits-and-motivation"] { --t-accent: #0F6E56; }
+[data-topic="scripture-and-life"] { --t-accent: #9A4A78; }
+[data-topic="beyond-the-lab"] { --t-accent: #B4532A; }
