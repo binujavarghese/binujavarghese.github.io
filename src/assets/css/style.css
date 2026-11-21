@@ -195,3 +195,9 @@ p { margin: 0 0 1em; }
 [data-topic="habits-and-motivation"] { --t-accent: #0F6E56; }
 [data-topic="scripture-and-life"] { --t-accent: #9A4A78; }
 [data-topic="beyond-the-lab"] { --t-accent: #B4532A; }
+
+/* Rotating quotes */
+.quote-rotator { display: grid; }
+.quote-item { grid-area: 1 / 1; margin: 0; opacity: 0; visibility: hidden; transition: opacity .8s ease, visibility .8s; }
+.quote-item.is-active { opacity: 1; visibility: visible; }
+.quote-band figcaption a { color: #fff; text-decoration: underline; text-underline-offset: 3px; }
