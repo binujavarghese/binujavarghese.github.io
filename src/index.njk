@@ -15,6 +15,32 @@ layout: layouts/base.njk
     </div>
   </div>
 </section>
+
+<section class="quote-band">
+  {% set allQuotes = site.quotes if (site.quotes and site.quotes.length) else [site.quote] %}
+  <div class="wrap-narrow quote-rotator">
+    {% for q in allQuotes %}
+    <figure class="quote-item{% if loop.first %} is-active{% endif %}">
+      <blockquote>“{{ q.text }}”</blockquote>
+      <figcaption>{{ q.author }}{% if q.topic %} · <a href="/topics/{{ q.topic | slugify2 }}/">{{ q.topic }}</a>{% endif %}</figcaption>
+    </figure>
+    {% endfor %}
+  </div>
+  {% if allQuotes.length > 1 %}
+  <script>
+    (function () {
+      var items = document.querySelectorAll('.quote-item');
+      var i = 0;
+      setInterval(function () {
+        items[i].classList.remove('is-active');
+        i = (i + 1) % items.length;
+        items[i].classList.add('is-active');
+      }, 6000);
+    })();
+  </script>
+  {% endif %}
+</section>
+
 {% if collections.posts.length %}
 <section class="wrap block">
   <div class="section-head">
@@ -26,6 +52,7 @@ layout: layouts/base.njk
   </div>
 </section>
 {% endif %}
+
 <section class="topics-strip">
   <div class="wrap">
     <h2 class="section-title">Explore by topic</h2>
@@ -55,37 +82,13 @@ layout: layouts/base.njk
   {% endif %}
 {% endfor %}
 
-<section class="quote-band">
-  {% set allQuotes = site.quotes if (site.quotes and site.quotes.length) else [site.quote] %}
-  <div class="wrap-narrow quote-rotator">
-    {% for q in allQuotes %}
-    <figure class="quote-item{% if loop.first %} is-active{% endif %}">
-      <blockquote>“{{ q.text }}”</blockquote>
-      <figcaption>{{ q.author }}{% if q.topic %} · <a href="/topics/{{ q.topic | slugify2 }}/">{{ q.topic }}</a>{% endif %}</figcaption>
-    </figure>
-    {% endfor %}
-  </div>
-  {% if allQuotes.length > 1 %}
-  <script>
-    (function () {
-      var items = document.querySelectorAll('.quote-item');
-      var i = 0;
-      setInterval(function () {
-        items[i].classList.remove('is-active');
-        i = (i + 1) % items.length;
-        items[i].classList.add('is-active');
-      }, 6000);
-    })();
-  </script>
-  {% endif %}
-</section>
-
 <section class="wrap block about-strip">
   <img src="{{ site.photo }}" alt="" class="avatar-xl">
   <div>
     <p class="eyebrow">About me</p>
     <h2 class="section-title">I'm {{ site.firstName }}, a chemist who believes science belongs to everyone.</h2>
     <p>From Kottayam, Kerala, to a PhD at the University of Limerick, I've learned that research is as much about curiosity, patience and small wins as it is about results. This blog is where I share both: the science, and the story behind it.</p>
+    <a class="link-arrow" href="/about/">Read my story →</a>
   </div>
 </section>
 
