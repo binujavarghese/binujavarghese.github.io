@@ -101,12 +101,20 @@ content:
       - { name: photo, label: Your photo, type: image }
       - { name: heroPhoto, label: Homepage background photo, type: image }
       - { name: headlineHighlight, label: Words to highlight in the headline, type: string }
-      - name: quote
+            - name: quote
         label: Homepage quote
         type: object
         fields:
           - { name: text, label: Quote, type: text }
           - { name: author, label: Author, type: string }
+      - name: quotes
+        label: Rotating homepage quotes
+        type: object
+        list: true
+        fields:
+          - { name: text, label: Quote, type: text }
+          - { name: author, label: Author, type: string }
+          - { name: topic, label: Topic (optional), type: string }
       - name: social
         label: Social links (leave empty to hide)
         type: object
