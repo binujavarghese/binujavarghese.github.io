@@ -56,10 +56,28 @@ layout: layouts/base.njk
 {% endfor %}
 
 <section class="quote-band">
-  <figure class="wrap-narrow">
-    <blockquote>“{{ site.quote.text }}”</blockquote>
-    <figcaption>{{ site.quote.author }}</figcaption>
-  </figure>
+  {% set allQuotes = site.quotes if (site.quotes and site.quotes.length) else [site.quote] %}
+  <div class="wrap-narrow quote-rotator">
+    {% for q in allQuotes %}
+    <figure class="quote-item{% if loop.first %} is-active{% endif %}">
+      <blockquote>“{{ q.text }}”</blockquote>
+      <figcaption>{{ q.author }}{% if q.topic %} · <a href="/topics/{{ q.topic | slugify2 }}/">{{ q.topic }}</a>{% endif %}</figcaption>
+    </figure>
+    {% endfor %}
+  </div>
+  {% if allQuotes.length > 1 %}
+  <script>
+    (function () {
+      var items = document.querySelectorAll('.quote-item');
+      var i = 0;
+      setInterval(function () {
+        items[i].classList.remove('is-active');
+        i = (i + 1) % items.length;
+        items[i].classList.add('is-active');
+      }, 6000);
+    })();
+  </script>
+  {% endif %}
 </section>
 
 <section class="wrap block about-strip">
