@@ -8,13 +8,20 @@ permalink: /topics/
     <h1>Topics</h1>
     <p class="muted">Pick a theme and dive in.</p>
   </header>
-  <div class="topic-grid">
+  <div class="hex-grid">
     {% for t in site.topics %}
       {% set count = (collections.posts | byTopic(t.name)).length %}
-      <a class="topic-card" data-topic="{{ t.name | slugify2 }}" href="/topics/{{ t.name | slugify2 }}/">
-        <h2>{{ t.name }}</h2>
-        <p>{{ t.description }}</p>
-        <span class="muted">{{ count }} post{% if count != 1 %}s{% endif %}</span>
+      {% set parts = (t.name | trim).split(" ") %}
+      <a class="hex-item" data-topic="{{ t.name | slugify2 }}" href="/topics/{{ t.name | slugify2 }}/">
+        <span class="hex-badge">
+          <svg class="hex-shape" viewBox="0 0 92 80" aria-hidden="true"><polygon points="24,3 68,3 89,40 68,77 24,77 3,40"/></svg>
+          {% set name = t.name %}{% include "partials/topic-icon.njk" %}
+        </span>
+        <span class="hex-pill">
+          <span class="hex-title">{{ parts.slice(1).join(" ") }}</span>
+          <span class="hex-desc">{{ t.description | trim }}</span>
+          {% if count > 0 %}<span class="hex-count">{{ count }} post{% if count != 1 %}s{% endif %} →</span>{% endif %}
+        </span>
       </a>
     {% endfor %}
   </div>
