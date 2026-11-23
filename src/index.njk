@@ -58,7 +58,7 @@ layout: layouts/base.njk
     <h2 class="section-title">Explore by topic</h2>
     <div class="topic-pills">
       {% for t in site.topics %}
-        <a class="topic-pill" data-topic="{{ t.name | slugify2 }}" href="/topics/{{ t.name | slugify2 }}/">{{ t.name }}</a>
+        <a class="topic-pill" data-topic="{{ t.name | slugify2 }}" href="/topics/{{ t.name | slugify2 }}/">{% set name = t.name %}{% include "partials/topic-icon.njk" %}<span>{{ (t.name | trim).split(" ").slice(1).join(" ") }}</span></a>
       {% endfor %}
     </div>
   </div>
