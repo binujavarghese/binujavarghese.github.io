@@ -199,7 +199,33 @@ p { margin: 0 0 1em; }
 .topic-pill:hover { background: var(--t-accent); color: #fff; filter: none; }
 .topic-card { background: #fff; color: var(--ink); border: 1px solid #E8E2D8; border-top: 4px solid var(--t-accent); }
 .topic-card h2 { color: var(--t-accent); }
+/* Topics page: hexagon list */
+.hex-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px 32px; }
+.hex-item { display: flex; align-items: center; text-decoration: none; color: var(--ink); transition: transform .2s; }
+.hex-item:hover { transform: translateX(4px); color: var(--ink); }
+.hex-badge { position: relative; z-index: 1; flex-shrink: 0; width: 92px; height: 80px; display: flex; align-items: center; justify-content: center; color: var(--t-accent); }
+.hex-shape { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
+.hex-shape polygon { fill: #fff; stroke: var(--t-accent); stroke-width: 3.5; stroke-linejoin: round; transition: fill .2s; }
+.hex-icon { position: relative; width: 34px; height: 34px; transition: color .2s; }
+.hex-emoji { position: relative; font-size: 1.8rem; }
+.hex-item:hover .hex-shape polygon { fill: var(--t-accent); }
+.hex-item:hover .hex-icon { color: #fff; }
+.hex-pill { flex: 1; display: block; margin-left: -24px; padding: 18px 24px 18px 40px; background: #fff; border: 1px solid #E8E2D8; border-left: 0; border-radius: 0 40px 40px 0; }
+.hex-item:hover .hex-pill { border-color: var(--t-accent); }
+.hex-title { display: block; font-family: var(--font-head); font-size: 1.3rem; font-weight: 600; color: var(--t-accent); line-height: 1.25; }
+.hex-desc { display: block; margin-top: 4px; font-size: .95rem; line-height: 1.5; color: var(--muted); }
+.hex-count { display: inline-block; margin-top: 6px; font-size: .85rem; font-weight: 600; color: var(--t-accent); }
+@media (max-width: 760px) {
+  .hex-grid { grid-template-columns: 1fr; gap: 16px; }
+  .hex-badge { width: 72px; height: 62px; }
+  .hex-icon { width: 28px; height: 28px; }
+  .hex-pill { margin-left: -18px; padding: 14px 18px 14px 30px; }
+}
 
+/* Homepage topic pills: outline icons */
+.topic-pill { display: inline-flex; align-items: center; gap: 8px; }
+.topic-pill .hex-icon { width: 20px; height: 20px; flex-shrink: 0; }
+.topic-pill .hex-emoji { font-size: 1rem; }
 /* Rotating quotes */
 .quote-rotator { display: grid; }
 .quote-item { grid-area: 1 / 1; margin: 0; opacity: 0; visibility: hidden; transition: opacity .8s ease, visibility .8s; }
