@@ -25,6 +25,10 @@ Beyond the Lab: trips, small moments and personal stories
 
 Whether you’re a curious reader, a fellow researcher or someone working on yourself, I’m really glad you’re here.
 
+## When I'm not running calculations
+
+When I'm not running calculations, you'll usually find me at the gym, in the pool, or on a badminton court. I love music, always have a book on the go, and believe a good evening with friends fixes most PhD problems.
+
 ## Academic journey
 
 My path in chemistry began in Kottayam, Kerala, and has led me to doctoral research in Ireland. Here’s a brief overview. For more, see my CV, Google Scholar and LinkedIn.
