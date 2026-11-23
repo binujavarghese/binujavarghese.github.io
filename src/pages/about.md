@@ -25,10 +25,6 @@ Beyond the Lab: trips, small moments and personal stories
 
 Whether you’re a curious reader, a fellow researcher or someone working on yourself, I’m really glad you’re here.
 
-## When I'm not running calculations
-
-When I'm not running calculations, you'll usually find me at the gym, in the pool, or on the badminton court. I love music, always have a book on the go, and believe a good evening with friends fixes most PhD problems.
-
 ## Academic journey
 
 My path in chemistry began in Kottayam, Kerala, and has led me to doctoral research in Ireland. Here’s a brief overview. For more, see my CV, Google Scholar and LinkedIn.
@@ -47,6 +43,10 @@ CMS College Kottayam, Kottayam, Kerala, India
 **Schooling**  
 Higher Secondary: St. Annes Girls HSS, Kottayam, Kerala, India  
 High School: CMS High School, Kottayam, Kerala, India
+
+## When I'm not running calculations
+
+When I'm not running calculations, you'll usually find me at the gym, in the pool, or on the badminton court. I love music, always have a book on the go, and believe a good evening with friends fixes most PhD problems.
 
 ## Let's connect
 
