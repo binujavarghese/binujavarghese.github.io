@@ -27,7 +27,7 @@ Whether you’re a curious reader, a fellow researcher or someone working on you
 
 ## When I'm not running calculations
 
-When I'm not running calculations, you'll usually find me at the gym, in the pool, or on a badminton court. I love music, always have a book on the go, and believe a good evening with friends fixes most PhD problems.
+When I'm not running calculations, you'll usually find me at the gym, in the pool, or on the badminton court. I love music, always have a book on the go, and believe a good evening with friends fixes most PhD problems.
 
 ## Academic journey
 
