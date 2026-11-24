@@ -239,5 +239,6 @@ p { margin: 0 0 1em; }
 
 /* Slightly larger label and menu */
 .hero .eyebrow { font-size: 0.95rem; letter-spacing: .14em; }
-.site-nav a:not(.btn) { font-size: 1.12rem; }
+.site-nav a:not(.btn) { font-size: 1.2rem; }
 .site-nav { gap: 30px; }
+.site-header .wordmark { font-size: 1.65rem; }
