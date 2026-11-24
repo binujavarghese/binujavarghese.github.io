@@ -237,6 +237,11 @@ p { margin: 0 0 1em; }
 .quote-item.is-active { opacity: 1; visibility: visible; }
 .quote-band figcaption a { color: #fff; text-decoration: underline; text-underline-offset: 3px; }
 
+/* Topic page header matches the Articles page */
+.topic-title-row { display: flex; align-items: center; gap: 18px; margin-bottom: 10px; }
+.topic-header h1 { margin: 0; color: var(--t-accent); }
+.topic-header .eyebrow a { color: var(--t-accent); }
+
 /* Slightly larger label and menu */
 .hero .eyebrow { font-size: 0.95rem; letter-spacing: .14em; }
 .site-nav a:not(.btn) { font-size: 1.2rem; }
