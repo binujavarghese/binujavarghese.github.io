@@ -29,7 +29,7 @@ content:
         type: select
         required: true
         options:
-        values: ["🪐 Science, Simplified", "🔍 For Researchers", "🎓 PhD Diaries", "🌱 Habits & Motivation", "🕊️ Scripture & Life", "✈️ Beyond the Lab"]
+        values: ["🪐 Science, Simplified", "🔬 For Researchers", "🌱 Habits & Motivation", "🕊️ Scripture & Life", "✈️ Beyond the Lab"]
       - name: image
         label: Cover image (optional)
         type: image
