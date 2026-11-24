@@ -12,8 +12,8 @@ export default function (eleventyConfig) {
     api.getFilteredByGlob("src/posts/*.md").filter((p) => !p.data.draft).reverse()
   );
 
-  eleventyConfig.addFilter("byTopic", (posts, topic) =>
-    (posts || []).filter((p) => p.data.topic === topic)
+     eleventyConfig.addFilter("topicInfo", (topics, name) => (topics || []).find((t) => String(t.name).trim() === String(name || "").trim()) || {});
+    (posts || []).filter((p) => String(p.data.topic || "").trim() === String(topic || "").trim())
   );
   eleventyConfig.addFilter("featured", (posts) => {
     const f = (posts || []).filter((p) => p.data.featured);
