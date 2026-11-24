@@ -1,6 +1,6 @@
 /* ===== Colours and fonts: change these to restyle the whole site ===== */
 :root {
-  --bg: #FBF8F3;          /* warm off-white page */
+  --bg: #FFFFFF;          /* warm off-white page */
   --surface: #FFFFFF;     /* cards */
   --ink: #1F2328;         /* main text */
   --muted: #5F6368;       /* secondary text */
@@ -9,8 +9,8 @@
   --primary-dark: #0A4F3E;
   --accent: #D85A30;      /* warm coral highlights */
   --soft: #E7F2EE;        /* pale teal sections */
-  --font-head: "Fraunces", Georgia, serif;
-  --font-body: "Source Sans 3", system-ui, sans-serif;
+  --font-head: "Roboto", Arial, sans-serif;
+  --font-body: "Roboto", Arial, sans-serif;
   --radius: 14px;
   --max: 1120px;
 }
