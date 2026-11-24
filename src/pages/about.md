@@ -46,7 +46,7 @@ High School: CMS High School, Kottayam, Kerala, India
 
 ## When I'm not running calculations
 
-When I'm not running calculations, you'll usually find me at the gym, in the pool, or on the badminton court. I love music, always have a book on the go, and believe a good evening with friends fixes most PhD problems.
+When I'm not running calculations, you'll usually find me at the gym, in the pool, or on the badminton court. I love music, always have a book on the go, and love to hang out with my friends.
 
 ## Let's connect
 
