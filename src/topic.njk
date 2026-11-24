@@ -10,9 +10,15 @@ eleventyComputed:
 ---
 {% set tposts = collections.posts | byTopic(t.name) %}
 <section class="wrap block">
-  <header class="list-header">
-    <p class="eyebrow"><a href="/topics/">Topics</a></p>
-    <h1>{{ t.name }}</h1>
+  <header class="list-header topic-header" data-topic="{{ t.name | slugify2 }}">
+    <p class="eyebrow"><a href="/topics/">← All topics</a></p>
+    <div class="topic-title-row">
+      <span class="hex-badge">
+        <svg class="hex-shape" viewBox="0 0 92 80" aria-hidden="true"><polygon points="24,3 68,3 89,40 68,77 24,77 3,40"/></svg>
+        {% set name = t.name %}{% include "partials/topic-icon.njk" %}
+      </span>
+      <h1>{{ (t.name | trim).split(" ").slice(1).join(" ") }}</h1>
+    </div>
     <p class="muted">{{ t.description }}</p>
   </header>
   {% if tposts.length %}
@@ -20,7 +26,7 @@ eleventyComputed:
       {% for post in tposts %}{% include "partials/post-card.njk" %}{% endfor %}
     </div>
   {% else %}
-    <p class="empty">Posts on this topic are coming soon. <a href="{{ site.newsletterUrl }}">Subscribe</a> to get them first.</p>
+    <p class="empty">Posts on this topic are coming soon. <a href="/newsletter/">Join my newsletter</a> to hear when they're out.</p>
   {% endif %}
 </section>
 {% include "partials/subscribe.njk" %}
