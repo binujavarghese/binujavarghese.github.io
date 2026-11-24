@@ -236,3 +236,8 @@ p { margin: 0 0 1em; }
 .quote-item { grid-area: 1 / 1; margin: 0; opacity: 0; visibility: hidden; transition: opacity .8s ease, visibility .8s; }
 .quote-item.is-active { opacity: 1; visibility: visible; }
 .quote-band figcaption a { color: #fff; text-decoration: underline; text-underline-offset: 3px; }
+
+/* Slightly larger label and menu */
+.hero .eyebrow { font-size: 0.95rem; letter-spacing: .14em; }
+.site-nav a:not(.btn) { font-size: 1.12rem; }
+.site-nav { gap: 30px; }
