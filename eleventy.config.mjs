@@ -12,7 +12,7 @@ export default function (eleventyConfig) {
     api.getFilteredByGlob("src/posts/*.md").filter((p) => !p.data.draft).reverse()
   );
 
-     eleventyConfig.addFilter("topicInfo", (topics, name) => (topics || []).find((t) => String(t.name).trim() === String(name || "").trim()) || {});
+  eleventyConfig.addFilter("byTopic", (posts, topic) =>
     (posts || []).filter((p) => String(p.data.topic || "").trim() === String(topic || "").trim())
   );
   eleventyConfig.addFilter("featured", (posts) => {
@@ -32,7 +32,7 @@ export default function (eleventyConfig) {
     String(s).toLowerCase().replace(/&/g, "and").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")
   );
   eleventyConfig.addShortcode("year", () => String(new Date().getFullYear()));
-  eleventyConfig.addFilter("topicInfo", (topics, name) => (topics || []).find((t) => t.name === name) || {});
+  eleventyConfig.addFilter("topicInfo", (topics, name) => (topics || []).find((t) => String(t.name).trim() === String(name || "").trim()) || {});
 
   return {
     dir: { input: "src", includes: "_includes", data: "_data", output: "_site" },
